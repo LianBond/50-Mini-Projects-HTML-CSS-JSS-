@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <small>Lorem, ipsum | 11 February 2062</small>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis impedit consequatur,
+                maiores et, nihil velit expedita in est quaerat similique quasi voluptate unde molestiae a voluptatibus
+                optio! Nesciunt corrupti fuga id vero ad facere adipisci est, laborum voluptas, ipsam quidem quos nihil
+                dolore consequatur laboriosam dolor? Vel id blanditiis sit provident recusandae magni aperiam voluptatum
+                ut praesentium enim, aliquam sapiente labore veniam facilis accusantium iusto illo velit consectetur
+                quam laudantium tempore quod assumenda rerum deserunt. Alias libero cum, dolores iste veritatis
+                molestias accusantium animi natus? Expedita cumque quis minima dolore, vel quod quibusdam nostrum.
+                Similique suscipit rerum iure consectetur?</p>
+
+            <h3>Lorem.</h3>
+            <css-doodle class="doodle">
+                :doodle {
+                @grid: 10x10;
+                width: 1000px;
+                height: 600px;
+                grid-gap: 1px;
+                }
+                background-color: rgb(121,163,61);
+                transform: scale(@rand(.1,.9));
+            </css-doodle>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus neque iste labore eius id ipsum vero
+                nisi temporibus quas voluptates excepturi, eum minima, doloremque quia. Nostrum esse placeat nesciunt
+                eveniet saepe doloremque ducimus velit earum officia ex eaque quisquam itaque cumque non recusandae quo
+                illo labore culpa, at ab exercitationem.</p>
+        </div>
+
+    </div>
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i>Home</li>
+            <li><i class="fas fa-user"></i>About</li>
+            <li><i class="fas fa-message"></i>Contact</li>
+        </ul>
+    </nav>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.6.1/css-doodle.min.js"></script>
+</body>
+
+</html>
