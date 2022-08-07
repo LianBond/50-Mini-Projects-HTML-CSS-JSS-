@@ -114,7 +114,7 @@ nav ul li {
     color: white;
     margin: 50px auto;
     transform: translateX(-200%);
-    transition: all 1s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 nav ul li i {
